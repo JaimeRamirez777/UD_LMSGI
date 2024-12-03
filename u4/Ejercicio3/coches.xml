@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concesionario SYSTEM "concesionario.dtd">
+<concesionario>
+  <coche>
+    <codigo>12345</codigo>
+    <marca>Volkswagen</marca>
+    <modelo>Golf</modelo>
+    <matricula>1234ABC</matricula>
+    <potencia>150</potencia>
+    <plazas>5</plazas>
+    <puertas>5</puertas>
+  </coche>
+  <coche>
+    <codigo>12346</codigo>
+    <marca>Ford</marca>
+    <modelo>Focus</modelo>
+    <matricula>5678XYZ</matricula>
+    <potencia>120</potencia>
+    <plazas>5</plazas>
+    <puertas>5</puertas>
+  </coche>
+  <coche>
+    <codigo>12347</codigo>
+    <marca>BMW</marca>
+    <modelo>Serie 3</modelo>
+    <matricula>8765XYZ</matricula>
+    <potencia>200</potencia>
+    <plazas>5</plazas>
+    <puertas>4</puertas>
+  </coche>
+</concesionario>

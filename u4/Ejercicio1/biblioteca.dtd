@@ -1,0 +1,11 @@
+
+<!DOCTYPE biblioteca [
+  <!ELEMENT biblioteca (libro+)>
+  <!ELEMENT libro (titulo, autor, año, isbn, genero)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT autor (#PCDATA)>
+  <!ELEMENT año (#PCDATA)>
+  <!ELEMENT isbn (#PCDATA)>
+  <!ELEMENT genero (#PCDATA)>
+]>
+

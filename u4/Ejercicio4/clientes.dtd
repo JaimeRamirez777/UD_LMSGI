@@ -1,0 +1,21 @@
+<!DOCTYPE gestoría [
+  <!ELEMENT gestoría (sede+)>
+  <!ELEMENT sede (codigoSede, nombreEmpleado, fechaAlta, cliente+)>
+  
+  <!ELEMENT codigoSede (#PCDATA)>
+  <!ATTLIST codigoSede
+    format CDATA #REQUIRED>
+  
+  <!ELEMENT nombreEmpleado (#PCDATA)>
+  <!ELEMENT fechaAlta (#PCDATA)>
+  
+  <!ELEMENT cliente (codigoCliente, descripcionCliente?, viviendas, plazoAltaHacienda)>
+  
+  <!ELEMENT codigoCliente (#PCDATA)>
+  <!ELEMENT descripcionCliente (#PCDATA)>
+  <!ELEMENT viviendas (numeroViviendas, costeVivienda, resumenViviendas)>
+  <!ELEMENT numeroViviendas (#PCDATA)>
+  <!ELEMENT costeVivienda (#PCDATA)>
+  <!ELEMENT resumenViviendas (#PCDATA)>
+  <!ELEMENT plazoAltaHacienda (#PCDATA)>
+]>

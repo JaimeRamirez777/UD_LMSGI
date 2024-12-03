@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gestoría SYSTEM "gestoria.dtd">
+<gestoría>
+  <sede>
+    <codigoSede>A1234567</codigoSede>
+    <nombreEmpleado>Juan Pérez</nombreEmpleado>
+    <fechaAlta>2024-12-01</fechaAlta>
+    <cliente>
+      <codigoCliente>ABC-123</codigoCliente>
+      <descripcionCliente>solvente</descripcionCliente>
+      <viviendas>
+        <numeroViviendas>3</numeroViviendas>
+        <costeVivienda>150000.00</costeVivienda>
+        <resumenViviendas>Viviendas unifamiliares en zona residencial</resumenViviendas>
+      </viviendas>
+      <plazoAltaHacienda>2024-11-15</plazoAltaHacienda>
+    </cliente>
+  </sede>
+</gestoría>
